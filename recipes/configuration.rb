@@ -11,7 +11,7 @@ template "#{node[:phpmyadmin][:cfg][:cfg_path]}/config-db.php" do
   mode 0644
 end
 
-template "#{node[:phpmyadmin][:cfg][:path]}/config.inc.php" do
+template "#{node[:phpmyadmin][:cfg][:cfg_inc_path]}/config.inc.php" do
   source "phpmyadmin/config.inc.php.erb"
   owner "root"
   group "root"
