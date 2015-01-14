@@ -1,4 +1,3 @@
-include_recipe "mysql::server"
 
 sql_path = '/tmp/phpmyadmin_create_tables.sql'
 
