@@ -3,6 +3,6 @@ $dbuser='<%= node[:phpmyadmin][:cfg][:control_user] %>';
 $dbpass='<%= node[:phpmyadmin][:cfg][:control_user_password] %>';
 $basepath='';
 $dbname='<%= node[:phpmyadmin][:cfg][:control_database] %>';
-$dbserver='';
+$dbserver='<%= node[:mysql][:host]';
 $dbport='';
 $dbtype='mysql';
